@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="css/style.css">
+  <title>ChIPMunk: fast and efficient motif discovery tool, reborn and running</title>  
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-8308575-2', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  
+  <div class="container">
+
+    <header class="header clearfix">
+      <div class="logo">ChIPMunk: fast and efficient motif discovery tool, reborn and running </div>
+
+      <nav class="menu_main">
+        <ul>
+          <li class="active"><a href="http://autosome.ru/ChIPMunk/">ChIPMunk homepage</a></li>
+          @<li><a href="http://autosome.ru">autosome.ru</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="info">
+      
+      <article class="hero clearfix">
+        <div class="col_100">
+          <img src="newchipmunk_logo.png" class="img_floatright">
+          <p><strong>ChIPMunk</strong> DNA&amp;RNA motif discovery tool now comes in a single package with <strong>diChIPMunk</strong>, ready to process your ChIP-Seq, HT-SELEX, DNase footprints & similar data, including sequence data on RNA-binding proteins (e.g. PAR-CLIP or CLIP-Seq).</p>
+          <p>Our sequence-crunching rodents are now accompanied by SPRY-SARUS motif scanner, to apply discovered PWMs to look for motif hits in given sequence sets.</p>
+          <p>You may also check <a href="http://opera.autosome.ru/macroape/">MACRO-APE</a> and <a href="http://opera.autosome.ru/perfectosape/">PERFECTOS-APE</a> web tools, which are
+          also useful for downstream analysis involving ChIPMunk results. </p> 
+        </div>
+        
+        <div class="clearfix center" style="background: lightblue; margin: 0;"><span style="border: 0px solid gray; padding: 5px;"><span style="color: navy; font-weight: bold;"></span> Need a demo? Try online web-interface for <a href="http://opera.autosome.ru/chipmunk/discovery/mono/new">ChIPMunk</a> and <a href="http://opera.autosome.ru/chipmunk/discovery/di/new">diChIPMunk</a>.</span>
+        <span style="border: 0px solid gray; padding: 5px;"><span style="color: navy; font-weight: bold;"></span> Need a simple motif scanner? Try the newest <a href="https://github.com/VorontsovIE/sarus">SARUS</a>.</span></div>
+        
+        <div class="col_50">
+          <h2>ChIPMunk downloads</h2>
+          <p><a href="chipmunk.jar" class="button">chipmunk.jar</a> ChIPMunk v8 complied classes</p>
+          <p><a href="userguide_2020.pdf" class="button">userguide.pdf</a> ChIPMunk v8 detailed user guide</p>
+          <small><h2>Additional downloads</h2>
+          <p><a href="chipmunk_src.jar">chipmunk_src.jar</a> ChIPMunk v8 java sources</p>
+          <p><a href="chipmunk_peaksample.zip">chipmunk_peaksample.zip</a> ChIPMunk peak fasta examples</p>
+          <p><a href="chipmunk_scripts_v8upd.zip">chipmunk_scripts.zip</a> ChIPMunk supporting scripts (ruby)</p>
+          <span style="color: red;">Please, use the latest versions provided at this page.</span>
+          </small>
+        </div>
+        
+        <div class="col_50">
+          <h2>Citing ChIPMunk</h2>
+          <p>Deep and wide digging for binding motifs in ChIP-Seq data. Kulakovskiy <em>et al.</em>, 2010, <a href="http://www.ncbi.nlm.nih.gov/pubmed/20736340">PubMed</a></p>
+          <p>From binding motifs in ChIP-Seq data to improved models of transcription factor binding sites. Kulakovskiy <em>et al.</em>, 2013, <a href="http://www.ncbi.nlm.nih.gov/pubmed/23427986">PubMed</a></p>
+          <p>Application of experimentally verified transcription factor binding sites models for computational analysis of ChIP-Seq data. Levitsky <em>et al.</em>, 2014, <a href="http://www.ncbi.nlm.nih.gov/pubmed/24472686">PubMed</a></p>
+          <small><h2>Contacts</h2>
+          <p>In case of any questions don't hesitate to contact <strong>[ivan-dot-kulakovskiy-at-gmail-dot-com]</strong>.</p>
+          <p>This software is maintained by Ilya Vorontsov and Ivan Kulakovskiy.</p></small>
+        </div>
+        
+      </article>
+
+      <article class="article clearfix">
+
+        <div class="col_100">
+          <img src="sarus_logo.png" class="img_floatright">
+          <h2>SPRY-SARUS motif scanner</h2>
+          <div style="background: lightgray;"><p>The newest update supporting bed output and P-values scoring is available at <a href="https://github.com/VorontsovIE/sarus">github</a>. The classic version is provided below. </p></div>
+          <p>SPRy-SARUS stands for Straightforward yet Powerful Rapid SuperAlphabet Representation Utilized for motif Search. 
+          This simple tool uses superalphabet approach to scan a given set of sequences for (di)PWM hits scoring no less than a given threshold.</p>
+          <p><a href="sarus.jar">sarus.jar</a> compiled classes &nbsp;
+          <a href="sarus_src.jar">sarus_src.jar</a> java sources &nbsp;
+          <a href="sarus_example.zip">sarus_example.zip</a> example data &nbsp;
+          <a href="sarus_readme.txt">sarus_readme.txt</a> short readme
+          </p>
+        </div>
+        
+      </article>
+          
+    <footer class="footer clearfix">
+      <div class="copyright">(c) autosome.ru Bioinformatics team 2010-2020, <span style="color: red;">last update: Feb 2020</span>
+      </div>
+
+      <nav class="menu_bottom">
+        <ul>
+          <li style="padding-right: 20px; font-weight: bold;">- Supported by RFBR grant 15-34-20423, RSF grant 14-50-00060 -</li>
+          <li class="active"><a href="http://cssr.ru/simpliste/index.html">Based on simpliste.ru CSS</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+  </div>
+</body>
+</html>
