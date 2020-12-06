@@ -106,7 +106,7 @@ aside, nav, article, figure {
 }
 
 /***** Layout *****/
-.body {clear: both; margin: 0 auto; width: 800px;}
+.body {clear: both; margin: 0 auto; width: 1200px;}
 img.right figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
@@ -145,14 +145,14 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		margin: 0 auto 1em auto;
 		padding: 0;
 		text-align: center;
-		width: 800px;
+		width: 1200px;
 		
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
 	}
 	
-	#banner nav ul {list-style: none; margin: 0 auto; width: 800px;}
+	#banner nav ul {list-style: none; margin: 0 auto; width: 1200px;}
 	#banner nav li {float: left; display: inline; margin: 0;}
 	
 	#banner nav a:link, #banner nav a:visited {
@@ -222,10 +222,10 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 *****************/
 #content {
 	background: #fff;
-	margin-bottom: 2em;
+	margin-bottom: 0.5em;
 	overflow: hidden;
 	padding: 20px 20px;
-	width: 760px;
+	width: 1160px;
 	
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -268,12 +268,14 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	#extras .blogroll {
 		float: left;
 		width: 615px;
+		margin-top: 10px;
 	}
 	
 	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 185px;}
 	
 	/* Social */
 	#extras .social {
+		margin-top: 10px;
 		float: right;
 		width: 175px;
 	}
@@ -287,6 +289,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		/* Icons */
 		.social a[href*='facebook.com'] {background-image: url('./social_facebook.png');}
 		.social a[href*='vk.com'] {background-image: url('./social_vk.png');}
+		.social a[href*='github.com'] {background-image: url('./github.png');}
 
 /*
 	About
@@ -329,7 +332,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
 .hentry figure {
 	float: right;
-	margin: 0em 2em 0 5em;
+	margin: 0em 2em 0 4em;
 	height: 64px;
 }
 .hentry figure img {display: block; float: right;}
@@ -346,7 +349,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
 	/* Blog Index */
 	#posts-list {list-style: none; margin: 0;}
-	#posts-list .hentry {padding-left: 130px; position: relative;}
+	#posts-list .hentry {padding-left: 20px; position: relative;}
 	#posts-list .hentry:hover {
 		background: gray;
 		color: #fff;
